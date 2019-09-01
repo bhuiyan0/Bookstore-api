@@ -25,7 +25,7 @@ namespace OBSMVCApi
 
             //EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");  //origins,headers,methods   
             //config.EnableCors(cors);
-
+            // hello world
             var container = new UnityContainer();
             container.RegisterType<IRepository<Author>, AuthorRepository>();
             container.RegisterType<IRepository<Category>, CategoryRepository>();
